@@ -1,0 +1,82 @@
+[
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "HIGH",
+    "timestamp": "2025-11-05T09:53:04.826877",
+    "details": "Memory usage at 84.1% (threshold: 70%)",
+    "value": 84.1,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "pid": 3260,
+        "memory_percent": 5.742967089168291,
+        "name": "MemCompression",
+        "cpu_percent": 0.0,
+        "status": "running"
+      },
+      {
+        "pid": 14348,
+        "memory_percent": 4.528402415432893,
+        "name": "comet.exe",
+        "cpu_percent": 0.0,
+        "status": "running"
+      },
+      {
+        "pid": 13092,
+        "memory_percent": 2.9514888094624046,
+        "name": "Code.exe",
+        "cpu_percent": 0.0,
+        "status": "running"
+      },
+      {
+        "pid": 38540,
+        "memory_percent": 2.7975008341723626,
+        "name": "Code.exe",
+        "cpu_percent": 0.0,
+        "status": "running"
+      },
+      {
+        "pid": 21660,
+        "memory_percent": 2.657112175419527,
+        "name": "OneDrive.exe",
+        "cpu_percent": 0.0,
+        "status": "running"
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:53:01.811910",
+      "cpu_percent": 21.2,
+      "cpu_per_core": [
+        23.4,
+        6.2,
+        39.4,
+        37.5,
+        46.2,
+        32.3,
+        67.2,
+        26.2,
+        27.3,
+        23.4,
+        6.2,
+        0.0,
+        9.2,
+        3.1,
+        23.4,
+        7.8,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 84.1,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 2.496166229248047,
+      "memory_used_gb": 13.212200164794922,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 278.1151695251465,
+      "process_count": 367,
+      "boot_time": "2025-10-30T03:10:37.769505"
+    }
+  }
+]

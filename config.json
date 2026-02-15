@@ -1,0 +1,26 @@
+{
+  "monitoring": {
+    "interval_seconds": 5,
+    "cpu_threshold": 70,
+    "memory_threshold": 70,
+    "disk_threshold": 90,
+    "hang_timeout_seconds": 30
+  },
+  "recovery": {
+    "max_recovery_attempts": 3,
+    "snapshot_enabled": true,
+    "auto_restart_services": true,
+    "critical_processes": [
+      "explorer.exe",
+      "winlogon.exe"
+    ]
+  },
+  "logging": {
+    "log_file": "healing_system.log",
+    "log_level": "INFO"
+  },
+  "notifications": {
+    "email_enabled": false,
+    "email_address": "admin@example.com"
+  }
+}

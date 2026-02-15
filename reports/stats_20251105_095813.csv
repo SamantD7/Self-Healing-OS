@@ -1,0 +1,9 @@
+Metric,Value
+total_anomalies_detected,6
+total_healing_attempts,6
+successful_healings,2
+failed_healings,4
+start_time,2025-11-05 09:56:20
+cycles,6
+snapshots_created,0
+emergency_restores,0

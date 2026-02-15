@@ -1,0 +1,482 @@
+[
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "HIGH",
+    "timestamp": "2025-11-05T09:56:30.781413",
+    "details": "Memory usage at 83.7% (threshold: 70%)",
+    "value": 83.7,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "memory_percent": 4.407125653313595,
+        "name": "comet.exe",
+        "pid": 14348,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 4.219212240161988,
+        "name": "Code.exe",
+        "pid": 25916,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 3.3375879766499734,
+        "name": "Code.exe",
+        "pid": 16536,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 2.655897950728705,
+        "name": "OneDrive.exe",
+        "pid": 21660,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 1.849774178492001,
+        "name": "explorer.exe",
+        "pid": 30392,
+        "status": "running",
+        "cpu_percent": 0.0
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:56:28.538612",
+      "cpu_percent": 22.4,
+      "cpu_per_core": [
+        39.1,
+        11.1,
+        42.9,
+        32.3,
+        44.4,
+        82.8,
+        52.3,
+        30.2,
+        41.3,
+        46.0,
+        1.6,
+        7.8,
+        12.5,
+        0.0,
+        29.7,
+        17.2,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 83.7,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 2.5577354431152344,
+      "memory_used_gb": 13.150630950927734,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 278.1065139770508,
+      "process_count": 375,
+      "boot_time": "2025-10-30T03:10:37.769505"
+    }
+  },
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "HIGH",
+    "timestamp": "2025-11-05T09:56:54.673133",
+    "details": "Memory usage at 81.2% (threshold: 70%)",
+    "value": 81.2,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "memory_percent": 4.41042834447263,
+        "name": "comet.exe",
+        "pid": 14348,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 4.177224350353364,
+        "name": "Code.exe",
+        "pid": 25916,
+        "status": "running",
+        "cpu_percent": 0.5
+      },
+      {
+        "memory_percent": 3.336033769045722,
+        "name": "Code.exe",
+        "pid": 16536,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 2.6163870792893578,
+        "name": "OneDrive.exe",
+        "pid": 21660,
+        "status": "running",
+        "cpu_percent": 99.4
+      },
+      {
+        "memory_percent": 1.8422945543965377,
+        "name": "explorer.exe",
+        "pid": 30392,
+        "status": "running",
+        "cpu_percent": 0.0
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:56:52.430171",
+      "cpu_percent": 20.4,
+      "cpu_per_core": [
+        26.2,
+        0.0,
+        48.4,
+        28.1,
+        44.6,
+        33.8,
+        54.7,
+        26.2,
+        35.9,
+        18.2,
+        7.7,
+        0.0,
+        4.7,
+        0.0,
+        21.5,
+        6.2,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 81.2,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 2.9472923278808594,
+      "memory_used_gb": 12.76107406616211,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 278.1053237915039,
+      "process_count": 375,
+      "boot_time": "2025-10-30T03:10:37.769505"
+    }
+  },
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "HIGH",
+    "timestamp": "2025-11-05T09:57:12.245085",
+    "details": "Memory usage at 78.8% (threshold: 70%)",
+    "value": 78.8,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "memory_percent": 4.20187311157705,
+        "name": "Code.exe",
+        "pid": 15504,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 3.983094106784748,
+        "name": "Code.exe",
+        "pid": 31504,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 2.641691521846088,
+        "name": "OneDrive.exe",
+        "pid": 21660,
+        "status": "running",
+        "cpu_percent": 99.2
+      },
+      {
+        "memory_percent": 1.8460586509380859,
+        "name": "explorer.exe",
+        "pid": 30392,
+        "status": "running",
+        "cpu_percent": 2.2
+      },
+      {
+        "memory_percent": 1.683133981923594,
+        "name": "comet.exe",
+        "pid": 26928,
+        "status": "running",
+        "cpu_percent": 5.8
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:57:09.993145",
+      "cpu_percent": 23.6,
+      "cpu_per_core": [
+        24.2,
+        3.1,
+        47.7,
+        48.5,
+        33.8,
+        28.8,
+        13.8,
+        50.8,
+        32.8,
+        26.6,
+        4.5,
+        0.0,
+        0.0,
+        1.5,
+        18.5,
+        9.2,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 78.8,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 3.3266525268554688,
+      "memory_used_gb": 12.3817138671875,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 278.1077461242676,
+      "process_count": 376,
+      "boot_time": "2025-10-30T03:10:37.769505"
+    }
+  },
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "MEDIUM",
+    "timestamp": "2025-11-05T09:57:30.767750",
+    "details": "Memory usage at 77.6% (threshold: 70%)",
+    "value": 77.6,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "memory_percent": 4.200076059034633,
+        "name": "Code.exe",
+        "pid": 15504,
+        "status": "running",
+        "cpu_percent": 0.5
+      },
+      {
+        "memory_percent": 3.34866170583027,
+        "name": "Code.exe",
+        "pid": 31504,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 2.641691521846088,
+        "name": "OneDrive.exe",
+        "pid": 21660,
+        "status": "running",
+        "cpu_percent": 97.5
+      },
+      {
+        "memory_percent": 1.8452815471359598,
+        "name": "explorer.exe",
+        "pid": 30392,
+        "status": "running",
+        "cpu_percent": 1.0
+      },
+      {
+        "memory_percent": 1.6915121322902658,
+        "name": "Code.exe",
+        "pid": 968,
+        "status": "running",
+        "cpu_percent": 0.9
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:57:27.919867",
+      "cpu_percent": 22.5,
+      "cpu_per_core": [
+        24.6,
+        3.1,
+        57.8,
+        51.6,
+        48.5,
+        37.5,
+        15.6,
+        23.4,
+        35.9,
+        21.9,
+        6.2,
+        0.0,
+        0.0,
+        6.2,
+        15.6,
+        3.1,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 77.6,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 3.5188446044921875,
+      "memory_used_gb": 12.189521789550781,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 278.1083641052246,
+      "process_count": 375,
+      "boot_time": "2025-10-30T03:10:37.769505"
+    }
+  },
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "MEDIUM",
+    "timestamp": "2025-11-05T09:57:49.383215",
+    "details": "Memory usage at 77.5% (threshold: 70%)",
+    "value": 77.5,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "memory_percent": 4.19968750713357,
+        "name": "Code.exe",
+        "pid": 15504,
+        "status": "running",
+        "cpu_percent": 0.1
+      },
+      {
+        "memory_percent": 3.34654895486824,
+        "name": "Code.exe",
+        "pid": 31504,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 2.6421772117224167,
+        "name": "OneDrive.exe",
+        "pid": 21660,
+        "status": "running",
+        "cpu_percent": 98.5
+      },
+      {
+        "memory_percent": 1.8460586509380859,
+        "name": "explorer.exe",
+        "pid": 30392,
+        "status": "running",
+        "cpu_percent": 2.3
+      },
+      {
+        "memory_percent": 1.68179833476369,
+        "name": "Code.exe",
+        "pid": 968,
+        "status": "running",
+        "cpu_percent": 6.5
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:57:46.577799",
+      "cpu_percent": 25.8,
+      "cpu_per_core": [
+        14.1,
+        6.2,
+        53.1,
+        59.4,
+        46.9,
+        50.8,
+        37.5,
+        12.5,
+        33.8,
+        18.8,
+        17.2,
+        0.0,
+        25.0,
+        0.0,
+        21.5,
+        6.2,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 77.5,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 3.53582763671875,
+      "memory_used_gb": 12.172538757324219,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 278.1080856323242,
+      "process_count": 374,
+      "boot_time": "2025-10-30T03:10:37.769505"
+    }
+  },
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "MEDIUM",
+    "timestamp": "2025-11-05T09:58:08.017167",
+    "details": "Memory usage at 77.2% (threshold: 70%)",
+    "value": 77.2,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "memory_percent": 4.165786353765821,
+        "name": "Code.exe",
+        "pid": 15504,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 3.346427532399157,
+        "name": "Code.exe",
+        "pid": 31504,
+        "status": "running",
+        "cpu_percent": 0.0
+      },
+      {
+        "memory_percent": 2.642760039574011,
+        "name": "OneDrive.exe",
+        "pid": 21660,
+        "status": "running",
+        "cpu_percent": 99.3
+      },
+      {
+        "memory_percent": 1.8466657632834966,
+        "name": "explorer.exe",
+        "pid": 30392,
+        "status": "running",
+        "cpu_percent": 3.3
+      },
+      {
+        "memory_percent": 1.6813369293811775,
+        "name": "Code.exe",
+        "pid": 968,
+        "status": "running",
+        "cpu_percent": 1.5
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:58:05.146989",
+      "cpu_percent": 20.8,
+      "cpu_per_core": [
+        19.7,
+        0.0,
+        46.2,
+        30.8,
+        31.2,
+        57.6,
+        14.1,
+        12.5,
+        33.8,
+        29.7,
+        9.4,
+        0.0,
+        7.8,
+        0.0,
+        38.1,
+        10.9,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 77.2,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 3.584278106689453,
+      "memory_used_gb": 12.124088287353516,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 278.1076316833496,
+      "process_count": 374,
+      "boot_time": "2025-10-30T03:10:37.769505"
+    }
+  }
+]

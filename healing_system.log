@@ -1,0 +1,627 @@
+2025-11-05 09:06:05 - SelfHealingSystem - INFO - Logger initialized with rotation: 10.0 MB max, 5 backups
+2025-11-05 09:06:10 - SelfHealingSystem - INFO - Anomaly Detector initialized
+2025-11-05 09:07:46 - SelfHealingSystem - INFO - Logger initialized with rotation: 10.0 MB max, 5 backups
+2025-11-05 09:07:51 - SelfHealingSystem - INFO - Anomaly Detector initialized
+2025-11-05 09:08:18 - SelfHealingSystem - INFO - 📈 Memory leak pattern: 9/9 consecutive increases
+2025-11-05 09:22:40 - SelfHealingSystem - INFO - Logger initialized with rotation: 10.0 MB max, 5 backups
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - Anomaly Detector initialized
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM INITIALIZED
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - Configuration:
+2025-11-05 09:22:45 - SelfHealingSystem - INFO -   Monitoring Interval: 5 seconds
+2025-11-05 09:22:45 - SelfHealingSystem - INFO -   CPU Threshold: 70%
+2025-11-05 09:22:45 - SelfHealingSystem - INFO -   Memory Threshold: 70%
+2025-11-05 09:22:45 - SelfHealingSystem - INFO -   Disk Threshold: 90%
+2025-11-05 09:22:45 - SelfHealingSystem - INFO -   Critical Processes: explorer.exe, winlogon.exe
+2025-11-05 09:22:45 - SelfHealingSystem - INFO -   Max Recovery Attempts: 3
+2025-11-05 09:22:45 - SelfHealingSystem - INFO -   Auto-restart Services: True
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM STARTED
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - Start Time: 2025-11-05 09:22:45
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - Monitoring Interval: 5 seconds
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:22:45 - SelfHealingSystem - INFO - Monitoring loop started
+2025-11-05 09:22:55 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 82.1% (threshold: 70%)
+2025-11-05 09:23:00 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:23:00 - SelfHealingSystem - INFO - Attempting to heal: MEMORY_SPIKE
+2025-11-05 09:23:00 - SelfHealingSystem - INFO - Healing memory spike...
+2025-11-05 09:23:00 - SelfHealingSystem - ERROR - ERROR: Failed to suspend/resume: (pid=3260)
+2025-11-05 09:23:00 - SelfHealingSystem - ERROR - ERROR: Failed to terminate: (pid=3260)
+2025-11-05 09:23:02 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed comet.exe (PID:14348) - Status: SUCCESS
+2025-11-05 09:23:04 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed Code.exe (PID:13092) - Status: SUCCESS
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - HEALING ACTION: Cleared system cache and Recycle Bin - Status: SUCCESS
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - Successfully healed: MEMORY_SPIKE
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - MONITORING CYCLE #1
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:23:05
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   CPU Usage: 24.6% (threshold: 70%)
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   Memory Usage: 82.1% (threshold: 70%)
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   Active Processes: 373
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   1. [HIGH] MEMORY_SPIKE
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -      Details: Memory usage at 82.1% (threshold: 70%)
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -        - MemCompression (4.9%)
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -        - comet.exe (4.2%)
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -        - Code.exe (3.1%)
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - System Health Score: 85/100
+2025-11-05 09:23:05 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   Uptime: 00:00:19
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   Total Anomalies: 1
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   Healing Attempts: 1
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   Successful: 1
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   Failed: 0
+2025-11-05 09:23:05 - SelfHealingSystem - INFO -   Success Rate: 100.0%
+2025-11-05 09:23:20 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 81.3% (threshold: 70%)
+2025-11-05 09:23:25 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:23:25 - SelfHealingSystem - INFO - Attempting to heal: MEMORY_SPIKE
+2025-11-05 09:23:25 - SelfHealingSystem - INFO - Healing memory spike...
+2025-11-05 09:23:25 - SelfHealingSystem - ERROR - ERROR: Failed to suspend/resume: (pid=3260)
+2025-11-05 09:23:25 - SelfHealingSystem - ERROR - ERROR: Failed to terminate: (pid=3260)
+2025-11-05 09:23:27 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed comet.exe (PID:14348) - Status: SUCCESS
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed Code.exe (PID:13092) - Status: SUCCESS
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - HEALING ACTION: Cleared system cache and Recycle Bin - Status: SUCCESS
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - Successfully healed: MEMORY_SPIKE
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - MONITORING CYCLE #2
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:23:29
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   CPU Usage: 16.4% (threshold: 70%)
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   Memory Usage: 81.1% (threshold: 70%)
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   Active Processes: 367
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   1. [HIGH] MEMORY_SPIKE
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -      Details: Memory usage at 81.3% (threshold: 70%)
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -        - MemCompression (5.2%)
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -        - comet.exe (4.0%)
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -        - Code.exe (3.1%)
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - System Health Score: 70/100
+2025-11-05 09:23:29 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   Uptime: 00:00:43
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   Total Anomalies: 2
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   Healing Attempts: 2
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   Successful: 2
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   Failed: 0
+2025-11-05 09:23:29 - SelfHealingSystem - INFO -   Success Rate: 100.0%
+2025-11-05 09:23:33 - SelfHealingSystem - INFO - Shutdown signal received (Ctrl+C)
+2025-11-05 09:23:33 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:23:33 - SelfHealingSystem - INFO - STOPPING SELF-HEALING SYSTEM
+2025-11-05 09:23:33 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:23:33 - SelfHealingSystem - INFO - Final Statistics:
+2025-11-05 09:23:33 - SelfHealingSystem - INFO -   Total Runtime: 00:00:47
+2025-11-05 09:23:33 - SelfHealingSystem - INFO -   Monitoring Cycles: 2
+2025-11-05 09:23:33 - SelfHealingSystem - INFO -   Anomalies Detected: 2
+2025-11-05 09:23:33 - SelfHealingSystem - INFO -   Healing Attempts: 2
+2025-11-05 09:23:33 - SelfHealingSystem - INFO -   Successful Healings: 2
+2025-11-05 09:23:33 - SelfHealingSystem - INFO -   Failed Healings: 0
+2025-11-05 09:23:33 - SelfHealingSystem - INFO -   Overall Success Rate: 100.0%
+2025-11-05 09:23:33 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:23:33 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM STOPPED
+2025-11-05 09:23:33 - SelfHealingSystem - INFO - Stop Time: 2025-11-05 09:23:33
+2025-11-05 09:23:33 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:33:36 - SelfHealingSystem - INFO - Logger initialized with rotation: 10.0 MB max, 5 backups
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - Anomaly Detector initialized
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM INITIALIZED
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - System Configuration:
+2025-11-05 09:33:41 - SelfHealingSystem - INFO -   Monitoring Interval: 5 seconds
+2025-11-05 09:33:41 - SelfHealingSystem - INFO -   CPU Threshold: 70%
+2025-11-05 09:33:41 - SelfHealingSystem - INFO -   Memory Threshold: 70%
+2025-11-05 09:33:41 - SelfHealingSystem - INFO -   Disk Threshold: 90%
+2025-11-05 09:33:41 - SelfHealingSystem - INFO -   Critical Processes: explorer.exe, winlogon.exe
+2025-11-05 09:33:41 - SelfHealingSystem - INFO -   Max Recovery Attempts: 3
+2025-11-05 09:33:41 - SelfHealingSystem - INFO -   Auto-restart Services: True
+2025-11-05 09:33:41 - SelfHealingSystem - INFO -   Snapshot Enabled: True
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM STARTED
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - Start Time: 2025-11-05 09:33:41
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - Monitoring Interval: 5 seconds
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:33:41 - SelfHealingSystem - INFO - Monitoring loop started
+2025-11-05 09:33:50 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 80.3% (threshold: 70%)
+2025-11-05 09:33:55 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:33:55 - SelfHealingSystem - INFO - Attempting to heal: MEMORY_SPIKE
+2025-11-05 09:33:55 - SelfHealingSystem - INFO - Healing memory spike...
+2025-11-05 09:33:55 - SelfHealingSystem - ERROR - ERROR: Failed to suspend/resume: (pid=3260)
+2025-11-05 09:33:55 - SelfHealingSystem - ERROR - ERROR: Failed to terminate: (pid=3260)
+2025-11-05 09:33:57 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed comet.exe (PID:14348) - Status: SUCCESS
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed Code.exe (PID:38540) - Status: SUCCESS
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - HEALING ACTION: Cleared system cache and Recycle Bin - Status: SUCCESS
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - Successfully healed: MEMORY_SPIKE
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - MONITORING CYCLE #1
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:33:59
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   CPU Usage: 20.1% (threshold: 70%)
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   Memory Usage: 80.4% (threshold: 70%)
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   Active Processes: 364
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   1. [HIGH] MEMORY_SPIKE
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -      Details: Memory usage at 80.3% (threshold: 70%)
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -        - MemCompression (6.1%)
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -        - comet.exe (4.5%)
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -        - Code.exe (3.4%)
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - System Health Score: 85/100
+2025-11-05 09:33:59 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   Uptime: 00:00:18
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   Total Anomalies: 1
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   Healing Attempts: 1
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   Successful: 1
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   Failed: 0
+2025-11-05 09:33:59 - SelfHealingSystem - INFO -   Success Rate: 100.0%
+2025-11-05 09:34:15 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 80.1% (threshold: 70%)
+2025-11-05 09:34:21 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:34:21 - SelfHealingSystem - INFO - Attempting to heal: MEMORY_SPIKE
+2025-11-05 09:34:21 - SelfHealingSystem - INFO - Healing memory spike...
+2025-11-05 09:34:21 - SelfHealingSystem - ERROR - ERROR: Failed to suspend/resume: (pid=3260)
+2025-11-05 09:34:21 - SelfHealingSystem - ERROR - ERROR: Failed to terminate: (pid=3260)
+2025-11-05 09:34:23 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed comet.exe (PID:14348) - Status: SUCCESS
+2025-11-05 09:34:25 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed Code.exe (PID:38540) - Status: SUCCESS
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - HEALING ACTION: Cleared system cache and Recycle Bin - Status: SUCCESS
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - Successfully healed: MEMORY_SPIKE
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - MONITORING CYCLE #2
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:34:26
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   CPU Usage: 12.6% (threshold: 70%)
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   Memory Usage: 80.1% (threshold: 70%)
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   Active Processes: 362
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   1. [HIGH] MEMORY_SPIKE
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -      Details: Memory usage at 80.1% (threshold: 70%)
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -        - MemCompression (6.1%)
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -        - comet.exe (4.5%)
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -        - Code.exe (3.4%)
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - System Health Score: 70/100
+2025-11-05 09:34:26 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   Uptime: 00:00:45
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   Total Anomalies: 2
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   Healing Attempts: 2
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   Successful: 2
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   Failed: 0
+2025-11-05 09:34:26 - SelfHealingSystem - INFO -   Success Rate: 100.0%
+2025-11-05 09:34:41 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 82.4% (threshold: 70%)
+2025-11-05 09:34:46 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:34:46 - SelfHealingSystem - INFO - Attempting to heal: MEMORY_SPIKE
+2025-11-05 09:34:46 - SelfHealingSystem - INFO - Healing memory spike...
+2025-11-05 09:34:46 - SelfHealingSystem - ERROR - ERROR: Failed to suspend/resume: (pid=3260)
+2025-11-05 09:34:46 - SelfHealingSystem - ERROR - ERROR: Failed to terminate: (pid=3260)
+2025-11-05 09:34:48 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed comet.exe (PID:14348) - Status: SUCCESS
+2025-11-05 09:34:50 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed Code.exe (PID:38540) - Status: SUCCESS
+2025-11-05 09:34:50 - SelfHealingSystem - INFO - HEALING ACTION: Cleared system cache and Recycle Bin - Status: SUCCESS
+2025-11-05 09:34:50 - SelfHealingSystem - INFO - Successfully healed: MEMORY_SPIKE
+2025-11-05 09:34:50 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:34:50 - SelfHealingSystem - INFO - MONITORING CYCLE #3
+2025-11-05 09:34:50 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:34:50
+2025-11-05 09:34:50 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:34:51 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   CPU Usage: 18.9% (threshold: 70%)
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   Memory Usage: 82.4% (threshold: 70%)
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   Active Processes: 370
+2025-11-05 09:34:51 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   1. [HIGH] MEMORY_SPIKE
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -      Details: Memory usage at 82.4% (threshold: 70%)
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -        - MemCompression (5.7%)
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -        - comet.exe (4.5%)
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -        - Code.exe (3.3%)
+2025-11-05 09:34:51 - SelfHealingSystem - INFO - System Health Score: 55/100
+2025-11-05 09:34:51 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   Uptime: 00:01:09
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   Total Anomalies: 3
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   Healing Attempts: 3
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   Successful: 3
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   Failed: 0
+2025-11-05 09:34:51 - SelfHealingSystem - INFO -   Success Rate: 100.0%
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - Shutdown signal received (Ctrl+C)
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - STOPPING SELF-HEALING SYSTEM
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - Generating final report...
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - Final report exported to: reports\final_report.txt
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - Anomalies exported to: reports\anomalies_20251105_093454.json
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - Anomaly summary exported to: reports\anomaly_summary_20251105_093454.csv
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - Statistics exported to: reports\stats_20251105_093454.csv
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - Final Statistics:
+2025-11-05 09:34:54 - SelfHealingSystem - INFO -   Total Runtime: 00:01:13
+2025-11-05 09:34:54 - SelfHealingSystem - INFO -   Monitoring Cycles: 3
+2025-11-05 09:34:54 - SelfHealingSystem - INFO -   Anomalies Detected: 3
+2025-11-05 09:34:54 - SelfHealingSystem - INFO -   Healing Attempts: 3
+2025-11-05 09:34:54 - SelfHealingSystem - INFO -   Successful Healings: 3
+2025-11-05 09:34:54 - SelfHealingSystem - INFO -   Failed Healings: 0
+2025-11-05 09:34:54 - SelfHealingSystem - INFO -   Overall Success Rate: 100.0%
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM STOPPED
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - Stop Time: 2025-11-05 09:34:54
+2025-11-05 09:34:54 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:52:50 - SelfHealingSystem - INFO - Logger initialized with rotation: 10.0 MB max, 5 backups
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Anomaly Detector initialized
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Snapshot Manager initialized
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Recovery Orchestrator initialized
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Performance Optimizer initialized
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Security Manager initialized
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM v2.0 INITIALIZED
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - System Configuration:
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Version: 2.0 (Complete)
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Monitoring Interval: 5 seconds
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   CPU Threshold: 70%
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Memory Threshold: 70%
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Disk Threshold: 90%
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Critical Processes: explorer.exe, winlogon.exe
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Max Recovery Attempts: 3
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Snapshot Enabled: True
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Advanced Features:
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Snapshot Manager: Enabled
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Advanced Recovery: Enabled
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Performance Optimization: Enabled
+2025-11-05 09:52:55 - SelfHealingSystem - INFO -   Security Manager: Enabled
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Creating initial system snapshot...
+2025-11-05 09:52:55 - SelfHealingSystem - ERROR - ERROR: Cannot create snapshot: Admin privileges required
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - ⚠️  Initial snapshot creation failed or skipped
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM v2.0 STARTED
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Start Time: 2025-11-05 09:52:55
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Monitoring Interval: 5 seconds
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:52:55 - SelfHealingSystem - INFO - Monitoring loop started
+2025-11-05 09:53:04 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 84.1% (threshold: 70%)
+2025-11-05 09:53:10 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:53:10 - SelfHealingSystem - INFO - Attempting advanced recovery: MEMORY_SPIKE
+2025-11-05 09:53:10 - SelfHealingSystem - INFO - Recovery attempt #1 for MEMORY_SPIKE
+2025-11-05 09:53:10 - SelfHealingSystem - INFO - Level 1: Standard healing
+2025-11-05 09:53:10 - SelfHealingSystem - INFO - Healing memory spike...
+2025-11-05 09:53:10 - SelfHealingSystem - ERROR - ERROR: Failed to suspend/resume: (pid=3260)
+2025-11-05 09:53:10 - SelfHealingSystem - ERROR - ERROR: Failed to terminate: (pid=3260)
+2025-11-05 09:53:12 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed comet.exe (PID:14348) - Status: SUCCESS
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed Code.exe (PID:13092) - Status: SUCCESS
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - HEALING ACTION: Cleared system cache and Recycle Bin - Status: SUCCESS
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - Recovery attempt recorded: STANDARD_HEALING - SUCCESS
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - ✓ Successfully healed: MEMORY_SPIKE
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - MONITORING CYCLE #1
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:53:14
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   CPU Usage: 20.8% (threshold: 70%)
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Memory Usage: 84.0% (threshold: 70%)
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Active Processes: 367
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   1. [HIGH] MEMORY_SPIKE
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -      Details: Memory usage at 84.1% (threshold: 70%)
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -        - MemCompression (5.7%)
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -        - comet.exe (4.5%)
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -        - Code.exe (3.0%)
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - System Health Score: 85/100
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Uptime: 00:00:18
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Total Anomalies: 1
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Healing Attempts: 1
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Successful: 1
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Failed: 0
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Snapshots Created: 0
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Success Rate: 100.0%
+2025-11-05 09:53:14 - SelfHealingSystem - INFO - Performance Metrics:
+2025-11-05 09:53:14 - SelfHealingSystem - INFO -   Avg Cycle Time: 0.000s
+2025-11-05 09:53:26 - SelfHealingSystem - INFO - Shutdown signal received (Ctrl+C)
+2025-11-05 09:53:26 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:53:26 - SelfHealingSystem - INFO - STOPPING SELF-HEALING SYSTEM v2.0
+2025-11-05 09:53:26 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:53:26 - SelfHealingSystem - INFO - Generating final comprehensive report...
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - No restore points found or error accessing them
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Final report: reports\final_report.txt
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Anomalies JSON: reports\anomalies_20251105_095327.json
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Summary CSV: reports\anomaly_summary_20251105_095327.csv
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Statistics: reports\stats_20251105_095327.csv
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - FINAL STATISTICS
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Total Runtime: 00:00:31
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Monitoring Cycles: 2
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Anomalies Detected: 1
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Healing Attempts: 1
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Successful Healings: 1
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Failed Healings: 0
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Snapshots Created: 0
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Overall Success Rate: 100.0%
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM v2.0 STOPPED
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - Stop Time: 2025-11-05 09:53:27
+2025-11-05 09:53:27 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:56:15 - SelfHealingSystem - INFO - Logger initialized with rotation: 10.0 MB max, 5 backups
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - Anomaly Detector initialized
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - Snapshot Manager initialized
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - Recovery Orchestrator initialized
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - Performance Optimizer initialized
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - Security Manager initialized
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM v2.0 INITIALIZED
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - System Configuration:
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Version: 2.0 (Complete)
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Monitoring Interval: 5 seconds
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   CPU Threshold: 70%
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Memory Threshold: 70%
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Disk Threshold: 90%
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Critical Processes: explorer.exe, winlogon.exe
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Max Recovery Attempts: 3
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Snapshot Enabled: True
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - Advanced Features:
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Snapshot Manager: Enabled
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Advanced Recovery: Enabled
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Performance Optimization: Enabled
+2025-11-05 09:56:20 - SelfHealingSystem - INFO -   Security Manager: Enabled
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - Creating initial system snapshot...
+2025-11-05 09:56:20 - SelfHealingSystem - INFO - Creating system restore point: SelfHealing_Initial_20251105_095620
+2025-11-05 09:56:22 - SelfHealingSystem - ERROR - ERROR: Failed to create restore point: Checkpoint-Computer : This command cannot be run due to the following error: the service cannot be started because it is disabled or does not have enabled devices 
+associated with it.
+At line:2 char:13
++             Checkpoint-Computer -Description "SelfHealing_Initial_202 ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Checkpoint-Computer], ArgumentException
+    + FullyQualifiedErrorId : ServiceDisabled,Microsoft.PowerShell.Commands.CheckpointComputerCommand
+ 
+
+2025-11-05 09:56:22 - SelfHealingSystem - INFO - ⚠️  Initial snapshot creation failed or skipped
+2025-11-05 09:56:22 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:56:22 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM v2.0 STARTED
+2025-11-05 09:56:22 - SelfHealingSystem - INFO - Start Time: 2025-11-05 09:56:20
+2025-11-05 09:56:22 - SelfHealingSystem - INFO - Monitoring Interval: 5 seconds
+2025-11-05 09:56:22 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:56:22 - SelfHealingSystem - INFO - Monitoring loop started
+2025-11-05 09:56:30 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 83.7% (threshold: 70%)
+2025-11-05 09:56:35 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:56:35 - SelfHealingSystem - INFO - Attempting advanced recovery: MEMORY_SPIKE
+2025-11-05 09:56:35 - SelfHealingSystem - INFO - Recovery attempt #1 for MEMORY_SPIKE
+2025-11-05 09:56:35 - SelfHealingSystem - INFO - Level 1: Standard healing
+2025-11-05 09:56:35 - SelfHealingSystem - INFO - Healing memory spike...
+2025-11-05 09:56:37 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed comet.exe (PID:14348) - Status: SUCCESS
+2025-11-05 09:56:39 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed Code.exe (PID:25916) - Status: SUCCESS
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - HEALING ACTION: Suspended/resumed Code.exe (PID:16536) - Status: SUCCESS
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - HEALING ACTION: Cleared system cache and Recycle Bin - Status: SUCCESS
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - Recovery attempt recorded: STANDARD_HEALING - SUCCESS
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - ✓ Successfully healed: MEMORY_SPIKE
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - MONITORING CYCLE #1
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:56:41
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   CPU Usage: 23.1% (threshold: 70%)
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Memory Usage: 83.7% (threshold: 70%)
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Active Processes: 380
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   1. [HIGH] MEMORY_SPIKE
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -      Details: Memory usage at 83.7% (threshold: 70%)
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -        - comet.exe (4.4%)
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -        - Code.exe (4.2%)
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -        - Code.exe (3.3%)
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - System Health Score: 85/100
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Uptime: 00:00:20
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Total Anomalies: 1
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Healing Attempts: 1
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Successful: 1
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Failed: 0
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Snapshots Created: 0
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Success Rate: 100.0%
+2025-11-05 09:56:41 - SelfHealingSystem - INFO - Performance Metrics:
+2025-11-05 09:56:41 - SelfHealingSystem - INFO -   Avg Cycle Time: 0.000s
+2025-11-05 09:56:54 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 81.2% (threshold: 70%)
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Attempting advanced recovery: MEMORY_SPIKE
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Recovery attempt #2 for MEMORY_SPIKE
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Level 2: Enhanced healing (more aggressive)
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Enhanced memory healing: Force cleanup
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Killed comet.exe
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Killed Code.exe
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Killed Code.exe
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Recovery attempt recorded: ENHANCED_HEALING - SUCCESS
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - ✓ Successfully healed: MEMORY_SPIKE
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - MONITORING CYCLE #2
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:56:58
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   CPU Usage: 22.4% (threshold: 70%)
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Memory Usage: 81.3% (threshold: 70%)
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Active Processes: 375
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   1. [HIGH] MEMORY_SPIKE
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -      Details: Memory usage at 81.2% (threshold: 70%)
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -        - comet.exe (4.4%)
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -        - Code.exe (4.2%)
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -        - Code.exe (3.3%)
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - System Health Score: 70/100
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Uptime: 00:00:38
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Total Anomalies: 2
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Healing Attempts: 2
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Successful: 2
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Failed: 0
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Snapshots Created: 0
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Success Rate: 100.0%
+2025-11-05 09:56:58 - SelfHealingSystem - INFO - Performance Metrics:
+2025-11-05 09:56:58 - SelfHealingSystem - INFO -   Avg Cycle Time: 18.891s
+2025-11-05 09:57:12 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 78.8% (threshold: 70%)
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - Attempting advanced recovery: MEMORY_SPIKE
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - Recovery attempt #3 for MEMORY_SPIKE
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - Level 3: Emergency snapshot restore
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - Non-critical anomaly - skipping snapshot restore
+2025-11-05 09:57:16 - SelfHealingSystem - ERROR - ERROR: ✗ Failed to heal: MEMORY_SPIKE
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - MONITORING CYCLE #3
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:57:16
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   CPU Usage: 52.4% (threshold: 70%)
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Memory Usage: 79.2% (threshold: 70%)
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Active Processes: 376
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   1. [HIGH] MEMORY_SPIKE
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -      Details: Memory usage at 78.8% (threshold: 70%)
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -        - Code.exe (4.2%)
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -        - Code.exe (4.0%)
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -        - OneDrive.exe (2.6%)
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - System Health Score: 55/100
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Uptime: 00:00:56
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Total Anomalies: 3
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Healing Attempts: 3
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Successful: 2
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Failed: 1
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Snapshots Created: 0
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Success Rate: 66.7%
+2025-11-05 09:57:16 - SelfHealingSystem - INFO - Performance Metrics:
+2025-11-05 09:57:16 - SelfHealingSystem - INFO -   Avg Cycle Time: 15.727s
+2025-11-05 09:57:30 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 77.6% (threshold: 70%)
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - Attempting advanced recovery: MEMORY_SPIKE
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - Recovery attempt #3 for MEMORY_SPIKE
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - Level 3: Emergency snapshot restore
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - Non-critical anomaly - skipping snapshot restore
+2025-11-05 09:57:35 - SelfHealingSystem - ERROR - ERROR: ✗ Failed to heal: MEMORY_SPIKE
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - MONITORING CYCLE #4
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:57:35
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   CPU Usage: 20.7% (threshold: 70%)
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Memory Usage: 77.6% (threshold: 70%)
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Active Processes: 375
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   1. [MEDIUM] MEMORY_SPIKE
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -      Details: Memory usage at 77.6% (threshold: 70%)
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -        - Code.exe (4.2%)
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -        - Code.exe (3.3%)
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -        - OneDrive.exe (2.6%)
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - System Health Score: 47/100
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Uptime: 00:01:14
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Total Anomalies: 4
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Healing Attempts: 4
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Successful: 2
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Failed: 2
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Snapshots Created: 0
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Success Rate: 50.0%
+2025-11-05 09:57:35 - SelfHealingSystem - INFO - Performance Metrics:
+2025-11-05 09:57:35 - SelfHealingSystem - INFO -   Avg Cycle Time: 14.792s
+2025-11-05 09:57:49 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 77.5% (threshold: 70%)
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - Attempting advanced recovery: MEMORY_SPIKE
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - Recovery attempt #3 for MEMORY_SPIKE
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - Level 3: Emergency snapshot restore
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - Non-critical anomaly - skipping snapshot restore
+2025-11-05 09:57:54 - SelfHealingSystem - ERROR - ERROR: ✗ Failed to heal: MEMORY_SPIKE
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - MONITORING CYCLE #5
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:57:54
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   CPU Usage: 19.7% (threshold: 70%)
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Memory Usage: 77.5% (threshold: 70%)
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Active Processes: 375
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   1. [MEDIUM] MEMORY_SPIKE
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -      Details: Memory usage at 77.5% (threshold: 70%)
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -        - Code.exe (4.2%)
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -        - Code.exe (3.3%)
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -        - OneDrive.exe (2.6%)
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - System Health Score: 39/100
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Uptime: 00:01:33
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Total Anomalies: 5
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Healing Attempts: 5
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Successful: 2
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Failed: 3
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Snapshots Created: 0
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Success Rate: 40.0%
+2025-11-05 09:57:54 - SelfHealingSystem - INFO - Performance Metrics:
+2025-11-05 09:57:54 - SelfHealingSystem - INFO -   Avg Cycle Time: 14.509s
+2025-11-05 09:58:08 - SelfHealingSystem - WARNING - ANOMALY DETECTED: MEMORY_SPIKE - Memory usage at 77.2% (threshold: 70%)
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - Processing 1 detected anomalies...
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - Attempting advanced recovery: MEMORY_SPIKE
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - Recovery attempt #3 for MEMORY_SPIKE
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - Level 3: Emergency snapshot restore
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - Non-critical anomaly - skipping snapshot restore
+2025-11-05 09:58:12 - SelfHealingSystem - ERROR - ERROR: ✗ Failed to heal: MEMORY_SPIKE
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - MONITORING CYCLE #6
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - Timestamp: 2025-11-05 09:58:12
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - ------------------------------------------------------------
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - System Metrics:
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   CPU Usage: 21.6% (threshold: 70%)
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Memory Usage: 77.2% (threshold: 70%)
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Disk Usage: 41.5% (threshold: 90%)
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Active Processes: 374
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - ANOMALIES DETECTED: 1
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   1. [MEDIUM] MEMORY_SPIKE
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -      Details: Memory usage at 77.2% (threshold: 70%)
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -      Top memory consumers:
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -        - Code.exe (4.2%)
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -        - Code.exe (3.3%)
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -        - OneDrive.exe (2.6%)
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - System Health Score: 31/100
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - Session Statistics:
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Uptime: 00:01:51
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Total Anomalies: 6
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Healing Attempts: 6
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Successful: 2
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Failed: 4
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Snapshots Created: 0
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Success Rate: 33.3%
+2025-11-05 09:58:12 - SelfHealingSystem - INFO - Performance Metrics:
+2025-11-05 09:58:12 - SelfHealingSystem - INFO -   Avg Cycle Time: 14.321s
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Shutdown signal received (Ctrl+C)
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - STOPPING SELF-HEALING SYSTEM v2.0
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Generating final comprehensive report...
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - No restore points found or error accessing them
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Final report: reports\final_report.txt
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Anomalies JSON: reports\anomalies_20251105_095813.json
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Summary CSV: reports\anomaly_summary_20251105_095813.csv
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Statistics: reports\stats_20251105_095813.csv
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - FINAL STATISTICS
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Total Runtime: 00:01:53
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Monitoring Cycles: 6
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Anomalies Detected: 6
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Healing Attempts: 6
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Successful Healings: 2
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Failed Healings: 4
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Snapshots Created: 0
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Overall Success Rate: 33.3%
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - ============================================================
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - SELF-HEALING SYSTEM v2.0 STOPPED
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - Stop Time: 2025-11-05 09:58:13
+2025-11-05 09:58:13 - SelfHealingSystem - INFO - ============================================================

@@ -1,0 +1,242 @@
+[
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "HIGH",
+    "timestamp": "2025-11-05T09:33:50.083207",
+    "details": "Memory usage at 80.3% (threshold: 70%)",
+    "value": 80.3,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "cpu_percent": 0.0,
+        "name": "MemCompression",
+        "pid": 3260,
+        "memory_percent": 6.068185030358046,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "comet.exe",
+        "pid": 14348,
+        "memory_percent": 4.517328686252597,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "Code.exe",
+        "pid": 38540,
+        "memory_percent": 3.3987606165735844,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "Code.exe",
+        "pid": 13092,
+        "memory_percent": 3.113272107267523,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "Code.exe",
+        "pid": 31752,
+        "memory_percent": 1.9836545929020308,
+        "status": "running"
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:33:47.113212",
+      "cpu_percent": 12.0,
+      "cpu_per_core": [
+        30.8,
+        0.0,
+        27.7,
+        30.8,
+        14.1,
+        12.3,
+        10.6,
+        3.0,
+        29.2,
+        31.8,
+        12.3,
+        0.0,
+        9.4,
+        0.0,
+        26.6,
+        6.2,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 80.3,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 3.0996246337890625,
+      "memory_used_gb": 12.608741760253906,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 277.9679489135742,
+      "process_count": 363,
+      "boot_time": "2025-10-30T03:10:37.769504"
+    }
+  },
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "HIGH",
+    "timestamp": "2025-11-05T09:34:15.825799",
+    "details": "Memory usage at 80.1% (threshold: 70%)",
+    "value": 80.1,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "cpu_percent": 0.3,
+        "name": "MemCompression",
+        "pid": 3260,
+        "memory_percent": 6.061579648039974,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 0.4,
+        "name": "comet.exe",
+        "pid": 14348,
+        "memory_percent": 4.512058951094429,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "Code.exe",
+        "pid": 38540,
+        "memory_percent": 3.3987606165735844,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 0.1,
+        "name": "Code.exe",
+        "pid": 13092,
+        "memory_percent": 3.1129078398602767,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 4.9,
+        "name": "Code.exe",
+        "pid": 31752,
+        "memory_percent": 1.9700795608586414,
+        "status": "running"
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:34:10.461927",
+      "cpu_percent": 14.9,
+      "cpu_per_core": [
+        31.8,
+        4.6,
+        39.1,
+        52.3,
+        29.2,
+        23.1,
+        9.2,
+        7.7,
+        6.1,
+        36.4,
+        20.3,
+        1.5,
+        18.2,
+        0.0,
+        4.6,
+        29.7,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 80.1,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 3.1246414184570312,
+      "memory_used_gb": 12.583724975585938,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 277.9676055908203,
+      "process_count": 362,
+      "boot_time": "2025-10-30T03:10:37.769504"
+    }
+  },
+  {
+    "type": "MEMORY_SPIKE",
+    "severity": "HIGH",
+    "timestamp": "2025-11-05T09:34:41.035750",
+    "details": "Memory usage at 82.4% (threshold: 70%)",
+    "value": 82.4,
+    "threshold": 70,
+    "culprit_processes": [
+      {
+        "cpu_percent": 0.2,
+        "name": "MemCompression",
+        "pid": 3260,
+        "memory_percent": 5.684320036601589,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "comet.exe",
+        "pid": 14348,
+        "memory_percent": 4.512058951094429,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 1.6,
+        "name": "Code.exe",
+        "pid": 38540,
+        "memory_percent": 3.266847246162686,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 0.2,
+        "name": "Code.exe",
+        "pid": 13092,
+        "memory_percent": 3.1135392366995043,
+        "status": "running"
+      },
+      {
+        "cpu_percent": 3.2,
+        "name": "Code.exe",
+        "pid": 31752,
+        "memory_percent": 1.9702981213029893,
+        "status": "running"
+      }
+    ],
+    "potential_leak": false,
+    "metrics": {
+      "timestamp": "2025-11-05T09:34:37.270396",
+      "cpu_percent": 18.3,
+      "cpu_per_core": [
+        22.2,
+        3.1,
+        34.4,
+        45.3,
+        42.9,
+        46.9,
+        20.6,
+        20.3,
+        11.1,
+        43.8,
+        3.1,
+        0.0,
+        17.2,
+        1.6,
+        4.6,
+        22.2,
+        0.0,
+        0.0
+      ],
+      "cpu_count": 18,
+      "memory_percent": 82.4,
+      "memory_total_gb": 15.708366394042969,
+      "memory_available_gb": 2.7632217407226562,
+      "memory_used_gb": 12.945144653320312,
+      "disk_percent": 41.5,
+      "disk_total_gb": 475.42187118530273,
+      "disk_free_gb": 277.9652519226074,
+      "process_count": 370,
+      "boot_time": "2025-10-30T03:10:37.769504"
+    }
+  }
+]
